@@ -1,0 +1,7 @@
+class Pasien:
+    def __init__(self,nama_pasien,jenis_kelamin,keluhan,tgl_dtg,jam_dtg):
+        self.nama_pasien = nama_pasien
+        self.jenis_kelamin = jenis_kelamin
+        self.keluhan = keluhan
+        self.tgl_dtg = tgl_dtg
+        self.jam_dtg = jam_dtg
