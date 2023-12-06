@@ -1,0 +1,7 @@
+from Soalpasien import Pasien
+
+p1 = Pasien("Gojo","Laki-laki","Patah Tulang","30 November","11.30")
+p2 = Pasien("Nobara","Perempuan","Demam","27 November","11.30")
+
+print(f"Pasien yang bernama {p1.nama} dengan jenis kelamin {p1.jenis_kelamin} memiliki keluhan {p1.keluhan}, datang pada tanggal {p1.tgl_dtg} jam {p1.jam_dtg}")
+print(f"Pasien yang bernama {p2.nama} dengan jenis kelamin {p2.jenis_kelamin} memiliki keluhan {p2.keluhan}, datang pada tanggal {p2.tgl_dtg} jam {p2.jam_dtg}")
